@@ -1,0 +1,24 @@
+{
+  "name": "digital-notebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bk7711/digital-notebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bk7711/digital-notebook/issues"
+  },
+  "homepage": "https://github.com/bk7711/digital-notebook#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
