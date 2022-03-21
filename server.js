@@ -23,8 +23,8 @@ app.get('/notes', (req, res) => {
 
 // get notes in db.json to show on page
 app.get('/api/notes', (req, res) => {
-    let results = fs.readFileSync('./db/db.json', {encoding:'utf-8'})
-    results = JSON.parse(results);
+    let results = fs.readFileSync('db/db.json', {encoding:'utf-8'})
+    results = JSON.parse(results)
     if(results){
         res.json(results);
         console.log(results);
